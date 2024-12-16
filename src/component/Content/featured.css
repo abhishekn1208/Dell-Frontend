@@ -1,0 +1,122 @@
+.featured-container{
+    min-width: 100%;
+    background-color: #141d28;
+    opacity: 0.5;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.featured-container img{
+    position: relative;
+    left: 20vw; 
+    width: 55%;
+    height: 100%;
+    object-fit: cover;
+}
+.featured-content{
+    z-index: 1;
+    background: #fff; 
+    border-radius: 2px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .05);
+    max-width: 20%;
+    padding: 12px !important; 
+    position: absolute;
+    bottom: 20vh;
+    left: 100px;
+
+}
+.featured-slider{
+    display: flex;
+    align-items: center;
+    transition: transform 0.5s ease;
+    overflow: hidden;
+    gap: 20px;
+    width: 100%;
+}
+.featured-container.focused {
+    opacity: 1;
+    transform: scale(1.05); 
+    overflow: hidden;
+  }
+.featured-content h2{
+    margin-top: 0 !important;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: .005em;
+    line-height: 1.5rem;
+   
+}
+.featured-content div{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+    margin-bottom: .5rem;
+    margin-top: 0;
+}
+.featured-content h3{
+    font-weight: 400 !important;
+    margin-bottom: 24px !important;
+    margin-top: 0 !important;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .005em;
+    line-height: 1.5rem;
+
+}
+.featured-content button{
+    text-decoration: none;
+    background-color: transparent;
+    color: #0672cb;
+    margin-right: 8px !important;
+    padding-bottom: 8px !important;
+    padding-top: 8px !important;
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    display: flex !important;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+.f-icon{
+    margin-left: 8px;
+}
+#featured-main{
+    background-color: #141d28;
+    margin: 0 !important;
+    padding: 60px 0 32px;
+    width: 100%;
+
+}
+.heading h3{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: .005em;
+    line-height: 1.5rem;
+    margin: 0 30px;
+
+}
+#featured-main .heading{
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.heading div{
+    color: #fff;
+    padding-top: 8px !important;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+    margin-top: 0;
+    margin-left: 30px;
+
+}

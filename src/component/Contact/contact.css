@@ -1,0 +1,443 @@
+.contact-container{
+    position: relative;
+    width: 100%;
+    padding: 15px 15px;
+    height: 10vh;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: 30vh;
+    overflow: hidden;
+   
+}
+.contact-main{
+    width: 100%;
+}
+.contact{
+    width: 100%;
+    height: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    z-index: 2;
+    box-sizing: border-box;
+  
+}
+.contact h2{
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 300;
+    text-align: left;
+    color: #ffffff;
+}
+.contact-container::before{
+    content: '';
+    background: url("https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/landing-page/contact-us/contact-us-banner-01-desktop.png?fmt=png-alpha&wid=1600&hei=214");
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    z-index: -1;
+}
+@media screen and (max-width:1024px) {
+    .contact-container::before{
+      background-position: 50%;
+      margin-top: 10px;
+    }
+}
+@media screen and (max-width:750px) {
+    .contact-container::before{
+        background-position: 100%;
+        margin-top: 10px;
+      }
+      .contact{
+        width: 100%;
+        height: 100%;
+        padding-right: 30px;
+        padding-left: 5px;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        z-index: 2;
+        box-sizing: border-box;
+      
+      }    
+      .contact h2{
+        font-size: 2rem;
+    }
+}
+
+
+.contact-help{
+    width: 100%;
+    margin-top: 5px;
+}
+.contact-help nav{
+    width: 100%;
+    position: sticky;
+}
+.contact-help nav ul{
+    width: 100%;
+    display: flex;
+}
+.contact-help nav ul li{
+    list-style: none;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    position: relative;
+    cursor: pointer;
+    color: #636363;
+    background-color: #fff;
+}
+.contact-help nav ul li a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #636363;
+}
+.contact-help nav ul li a.active{
+    background-color: red; /* Color for the active link */
+    font-weight: bold;
+}
+.contact-help nav ul li:hover span{
+ color: #0672cb;
+
+}
+.contact-help nav ul li:hover{
+    background-color: #f1f1f1;
+}
+
+@media screen and (max-width:1024px) {
+    .contact-help nav ul li{
+        padding: 5px 5px;
+        flex: 1;
+        font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+        text-wrap: nowrap;
+   
+    }
+    .contact-help nav{
+        width: 100%;
+        position: sticky;
+        overflow-x: auto;
+    }
+}
+
+.support-help{
+    width: 100%;
+    padding: 15px 15px;
+    background-color: #212731;
+}
+.order-support{
+    width: 100%;
+}
+.order-support h2{
+    text-align: center;
+    width: 100%;
+    margin: 7rem 2.25rem;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #f5f6f7;
+}
+.chat{
+    width: 95%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+}
+.chat-support{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-weight: 300;
+    background-color: #fff;
+    padding: 30px 30px;
+  
+    
+}
+.chat-support h1{
+    color: #0e0e0e;
+    font-size: 2rem;
+    line-height: 1.25;
+    font-weight: 100;
+   
+   
+}
+.chat-support span{
+    display: inline-block;
+    overflow: hidden;
+    width: 1rem;
+}
+.support-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.support-content div{
+ width: 100%;
+}
+.support-content p{
+    margin-block-start: 1.5rem;
+    margin-block-end: 1rem;
+}
+.support-content button{
+    margin-block-start: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    background-color: #0672cb;
+    border: .0625rem solid #0672cb;
+    color: #fff !important;
+    border-radius: .125rem;     
+    padding: .75rem 1.25rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.chat-button1{
+    margin-bottom: 20px
+}
+.chat-button2{  
+  margin-bottom: 20px
+
+}
+.chat-button3{
+    margin-bottom: 20px
+}
+.chat-button4{
+margin-bottom: 20px
+
+}
+
+.chat-button2 button:nth-child(1){
+    background-color:transparent;
+   border: .0625rem solid #0672cb;
+    color: #0672cb !important;
+    margin-bottom: 10px;
+}
+.chat-button2 button:nth-child(1):hover{
+    background-color: #f1f1f1;
+}
+
+@media screen and (max-width : 1024px) {
+    .chat{
+        width: 95%;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2,1fr);
+        margin: auto;
+    }
+}
+@media screen and (max-width : 750px) {
+    .chat{
+        width: 95%;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;
+    }
+}
+
+.return{
+    width: 90%;
+    margin: auto;
+    background-color: #f9fafa;
+    font-size: 1rem;
+    font-weight: 700;;
+    line-height: 1.5;
+    color: #0e0e0e;
+}
+.return div{
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    width: 100%;
+    cursor: pointer;
+}
+.return div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.timing-content{
+   width: 100%;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color: #0e0e0e;
+   position: relative;
+   z-index: 1;
+   left: 15vw;
+ 
+  
+}
+
+.timing-content h3{
+    font-size: 2rem;
+    line-height: 1.25;
+    font-weight: 300;
+}
+
+.timing-content div{
+    margin-top: 20px;
+ 
+}
+.support-timing{
+    width: 100%;
+    padding: 30px 0;
+}
+.support-timing::before{
+    content: '';
+    background: url('https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/landing-page/contact-us/skinny-banner-desktop-apj-v2.png?fmt=png-alpha&wid=1600&hei=427');
+    position: absolute;
+    /* background-repeat: no-repeat; */
+    /* background-position: 0; */
+    background-size: auto;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    z-index: 1;
+    
+}
+
+@media screen and (max-width : 1024px) {
+    .support-timing::before{
+        background : none;
+        background-color: #f9fafa;
+    }
+}
+
+.more-services{
+    width: 100%;
+    padding: 15px 15px;
+    background-color: #212731;
+}
+.services-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+
+}
+.more-services h2{
+    text-align: center;
+    width: 100%;
+    margin: 3rem 2.25rem;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #f5f6f7;
+}
+.services-div{
+    width: 100%;
+    margin: auto;
+    background-color: #f9fafa;
+    font-size: 1rem;
+    font-weight: 700;;
+    line-height: 1.5;
+    color: #0e0e0e;
+}
+.services-div div{
+
+    transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    width: 100%;
+    cursor: pointer;
+}
+.services-div div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #0672cb;
+}
+.corporate-container{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+   margin: auto;
+   gap: 10px;
+   margin-top: 50px;
+}
+.info{
+    width: 100%;
+    margin: auto;
+    background-color: #f9fafa;
+    font-size: 1rem;
+    font-weight: 700;;
+    line-height: 1.5;
+    color: #0e0e0e;
+}
+.info div{
+    transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    width: 100%;
+    cursor: pointer;
+    
+}
+.info div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #0672cb;
+}
+#head{
+   margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#head p{
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 300;
+    width: 100%;
+    text-align: center;
+  
+}
+.find-corp{
+    width: 95%;
+    margin: auto;
+    background-color: #f9fafa;
+    font-size: 1rem;
+    font-weight: 700;;
+    line-height: 1.5;
+    color: #0e0e0e;
+}.find-corp div{
+    transition: box-shadow .3s ease-in-out, background-color .3s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    width: 100%;
+    cursor: pointer;
+    
+}
+.find-corp div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #0672cb;
+}
+html {
+    scroll-behavior: smooth;
+  }

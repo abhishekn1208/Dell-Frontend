@@ -1,0 +1,84 @@
+.deals-container{
+    width: 19%;
+    background-color: #fff;
+    position: absolute;
+    left: 59.2vw;
+    top: -0.3vh;
+    z-index: 1001;
+    height: auto;
+}
+
+.deals{
+    width: 100%;
+}
+.deals ul li{
+    font-size: .875em;
+    color: #636363;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    padding: 12px 22px 12px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.deals ul li:hover{
+    background-color: #e0e0e0e1;
+}
+
+.deals-business{
+    width: 19%;
+    background-color: #fff;
+    position: absolute;
+    left: 77.7vw;
+    top: -0.2vh;
+    z-index: 1001;
+    height: auto;
+}
+
+.business-container{
+    width: 100%;
+}
+.business-container ul li{
+    font-size: .875em;
+    color: #636363;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    padding: 12px 22px 12px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.business-container ul li:hover{
+    background-color: #e0e0e0e1;
+}
+.deals-Purchase{
+    width: 19%;
+    background-color: #fff;
+    position: absolute;
+    left: 77.7vw;
+    top: -0.2vh;
+    z-index: 1001;
+    height: auto;
+}
+
+.Purchase-container{
+    width: 100%;
+}
+.Purchase-container ul li{
+    font-size: .875em;
+    color: #636363;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    padding: 12px 22px 12px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Purchase-container ul li:hover{
+    background-color: #e0e0e0e1;
+}

@@ -1,0 +1,35 @@
+.cart-container{
+    width: 18%;
+    padding: 5px 5px;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 4px 16px rgba(0, 43, 85, .12);
+    box-sizing: border-box;
+    height: auto;
+    position: absolute;
+    top: 8.54vh;
+    left: 80.5vw;
+    z-index: 1001;
+
+}
+.cart{
+    width: 100%;
+}
+.cart h2{
+    color: #636363;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0 0 16px;
+    padding: 16px 16px 0;
+    box-sizing: border-box;
+
+
+}
+.cart p{
+    color: #636363;
+    line-height: 20px;
+    font-size: 1em;
+    margin: 0 0 16px;
+    padding: 16px 16px 0;
+}

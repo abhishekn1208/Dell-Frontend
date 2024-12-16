@@ -1,0 +1,85 @@
+.v-content{
+    width: 100%;
+    position: relative;
+}
+
+.video-bg{
+    width: 100%;
+    height: 80vh;
+
+
+}
+.video-bg video{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #141d28;
+    object-fit: cover;
+   padding: 16px;
+  
+}
+.video-content{
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    color: white;
+    background: #000000cf;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.video-content h2{
+    margin-bottom: 8px !important;
+    margin-top: 0 !important;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: .005em;
+    line-height: 1.5rem;
+}
+
+.video-content>div{
+    margin-bottom: 8px !important;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 300;
+}
+.video-content h3{
+    margin-top: 4px !important;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .005em;
+    line-height: 1.5rem;
+}
+.btn button{
+    background-color: #0672cb;
+    border-color: #0672cb;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: .6875rem 1.1875rem;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.series-btn{
+    gap: 40px;
+    margin-top: 8px !important;
+    display: flex !important;
+    justify-content: center !important;
+    color: #fff;
+}
+.series-btn button{
+    color: #fff;
+    gap: 8px;
+    text-decoration: none;
+    background-color: transparent;
+    display: flex !important;
+    align-items: center !important;
+    box-sizing: inherit;
+    border: none;
+}

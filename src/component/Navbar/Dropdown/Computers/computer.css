@@ -1,0 +1,208 @@
+.computers-container{
+    width: 19%;
+    background-color: #fff;
+    position: absolute;
+    left: 26.7vw;
+    top: -0.3vh;
+    z-index: 1001;
+    height: auto;
+}
+
+.computers{
+    width: 100%;
+}
+.computers ul li{
+    font-size: .875em;
+    color: #636363;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    padding: 12px 22px 12px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.computers ul li:hover{
+    background-color: #e0e0e0e1;
+}
+.computers-laptops{
+    width: 19%;
+    background-color: #fff;
+    position: absolute;
+    left: 44.7vw;
+    top: -0.2vh;
+    z-index: 1001;
+    height: auto;
+}
+
+.laptops-container{
+    width: 100%;
+}
+.laptops-container ul li{
+    font-size: .875em;
+    color: #636363;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    padding: 12px 22px 12px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.laptops-container ul li:hover{
+    background-color: #e0e0e0e1;
+}
+
+
+.computers-desktop{
+    width: 19%;
+    background-color: #fff;
+    position: absolute;
+    left: 44.7vw;
+    top: -0.2vh;
+    z-index: 1001;
+    height: auto;
+}
+
+.desktop-container{
+    width: 100%;
+}
+.desktop-container ul li{
+    font-size: .875em;
+    color: #636363;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    padding: 12px 22px 12px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.desktop-container ul li:hover{
+    background-color: #e0e0e0e1;
+}
+
+
+
+
+.computers-monitor{
+    width: 19%;
+    background-color: #fff;
+    position: absolute;
+    left: 44.7vw;
+    top: -0.2vh;
+    z-index: 1001;
+    height: auto;
+}
+
+.monitor-container{
+    width: 100%;
+}
+.monitor-container ul li{
+    font-size: .875em;
+    color: #636363;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    padding: 12px 22px 12px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.monitor-container ul li:hover{
+    background-color: #e0e0e0e1;
+}
+
+
+
+.computers-gaming{
+    width: 19%;
+    background-color: #fff;
+    position: absolute;
+    left: 44.7vw;
+    top: -0.2vh;
+    z-index: 1001;
+    height: auto;
+}
+
+.gaming-container{
+    width: 100%;
+}
+.gaming-container ul li{
+    font-size: .875em;
+    color: #636363;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    padding: 12px 22px 12px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gaming-container ul li:hover{
+    background-color: #e0e0e0e1;
+}
+
+
+
+
+.computers-pc{
+    width: 19%;
+    background-color: #fff;
+    position: absolute;
+    left: 44.7vw;
+    top: -0.2vh;
+    z-index: 1001;
+    height: auto;
+}
+
+.pc-container{
+    width: 100%;
+}
+.pc-container ul li{
+    font-size: .875em;
+    color: #636363;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    padding: 12px 22px 12px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pc-container ul li:hover{
+    background-color: #e0e0e0e1;
+}
+
+
+
+
+.computers-workstation{
+    width: 19%;
+    background-color: #fff;
+    position: absolute;
+    left: 44.7vw;
+    top: -0.2vh;
+    z-index: 1001;
+    height: auto;
+}
+
+.workstation-container{
+    width: 100%;
+}
+.workstation-container ul li{
+    font-size: .875em;
+    color: #636363;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    padding: 12px 22px 12px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.workstation-container ul li:hover{
+    background-color: #e0e0e0e1;
+}

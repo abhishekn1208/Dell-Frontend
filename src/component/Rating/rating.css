@@ -1,0 +1,26 @@
+.rating-container{
+    background-color: rgb(0, 42, 88);
+    padding: 20px 20px;
+    overflow: hidden;
+    width: 100%;
+}
+input[type=radio]{
+    display: none;
+}
+.star{
+    cursor: pointer;
+}
+.rating{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    align-items: center;
+ 
+}
+.rate{
+    text-align: center;
+    color: #fff;
+}
+.rating span{
+    margin: 15px;
+}

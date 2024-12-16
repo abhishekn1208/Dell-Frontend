@@ -1,0 +1,360 @@
+@media screen and (min-width : 1170px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+ 
+
+    .search-box2{
+        display: none;
+    }
+    
+    .left-column{
+        display: flex;
+        align-items: center;
+        /* border: 1px solid; */
+        width: 70%
+    }
+    .left-column img{
+        width: 100%;
+        height: 100%;
+    }
+    .logo{
+        /* border: 1px solid; */
+        width: 236px;
+        height: 50px;
+        margin: 0 16px;
+    }
+     
+    .search-box{
+        display: flex;
+        align-items: center;
+        width: 57%;
+        margin-left: 50px;
+    }
+    .search-box input{
+        width: 95%;
+        padding: 8px;
+    }
+    .search-box .magnifier{
+        position: absolute;
+        left: 59vw;
+    }
+    #right-column{
+             display: flex;
+            /* border: 1px solid; */
+            width: 30%;
+            justify-content: space-around;
+            align-items: center;
+    }
+    #right-column a{
+        text-decoration: none;
+        color: black;
+    } 
+ 
+  #right-column div{
+    height: 100%;
+
+  } 
+  #right-column div :hover{
+    background-color: #d2d2d2;
+    color: black;
+  }
+
+    .nav-t{
+        display: flex;
+    }
+    #right-column div span{
+        color: #636363;
+        font-size: .875em;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 0;
+        text-transform: none;
+        height: 100%;
+    display: flex
+;
+    align-items: center;
+    }
+    #right-column div a{
+        color: #636363;
+        font-size: .875em;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 0;
+        text-transform: none;
+        height: 100%;
+    display: flex
+;
+    align-items: center;
+    }
+    #right-column .icon, .down{
+        padding: 0 5px; 
+    }
+    .down {
+        transition: transform 0.3s ease; 
+      }
+    #right-column div :hover .down{
+       transform: rotate(180deg);
+    }
+    #right-column2{
+        display: none;
+    }
+    .nav-t .bar{
+        display: none;
+    }
+}
+
+
+@media (min-width : 1000px) and (max-width : 1170px){
+  
+    .left-column{
+        display: flex;
+        align-items: center;
+        /* border: 1px solid; */
+        width: 70%
+    }
+    .left-column img{
+        width: 100%;
+        height: 100%;
+    }
+    .logo{
+        /* border: 1px solid; */
+        width: 236px;
+        height: 50px;
+        margin: 0 16px;
+    }
+     
+    .search-box{
+        display: flex;
+                align-items: center;
+                width: 45%;
+    }
+    .search-box input{
+        width: 95%;
+        padding: 8px;
+    }
+    .search-box .magnifier{
+        position: absolute;
+        left: 52vw;
+    }
+    #right-column{
+             display: flex;
+            /* border: 1px solid; */
+            width: 30%;
+            justify-content: space-around;
+            align-items: center;
+        
+    }
+    #right-column a{
+        text-decoration: none;
+        color: black;
+    } 
+    .nav-t{
+        display: flex;
+    }
+    #right-column div a{
+        color: hsl(0, 0%, 39%);
+        font-size: .875em;
+        font-weight: 400;
+        line-height: 20px;
+        padding: 0;
+        text-transform: none;
+    }
+   
+    .down {
+        transition: transform 0.3s ease; 
+      }
+    #right-column div :hover .down{
+       transform: rotate(180deg);
+    }
+    #right-column2{
+        display: none;
+    }
+    .nav-t .bar{
+        display: none;
+    }
+}
+.search-box2{
+ display: none;
+
+}
+
+@media screen and (max-width :999px) and (min-width : 750px) {
+   
+    .left-column{
+        display: flex;
+        align-items: center;
+        /* border: 1px solid; */
+        width: 85%
+    }
+    .left-column img{
+        width: 100%;
+        height: 100%;
+    }
+    .logo{
+        /* border: 1px solid; */
+        width: 236px;
+        height: 50px;
+    }
+     
+    .search-box{
+        display: flex;
+                align-items: center;
+                width: 70%;
+    }
+    .search-box input{
+        width: 95%;
+        padding: 8px;
+    }
+    .search-box .magnifier{
+        position: absolute;
+        left: 80vw;
+    }
+  
+  
+    .nav-t{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+  #right-column{
+    display: none;
+  } 
+  
+ 
+    #right-column2{
+        display: flex
+        ;
+                width: 10%;
+                justify-content: space-around;
+                font-size: x-large;
+    }
+    #right-column2 .icon{
+        color:  hsl(0, 0%, 39%);
+        padding: 11px;
+       
+    }
+   
+    
+    #right-column2>div :hover{
+        border-bottom: 2px solid gray;
+    }
+
+    .bar{
+        width: 5%;
+    }
+    .bar :hover{
+        border-bottom: 2px solid gray;
+    }
+
+   .bar-span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 4px;
+    
+
+   }
+   .bar-span span{
+    text-align: center;
+    width: 50%;
+    border: 1px solid gray;
+    margin-top: 5px;
+ 
+   }
+   .search-box2{
+    display: none;
+   }
+    
+}
+@media screen and (max-width :754px) {
+    .left-column{
+        display: flex;
+        align-items: center;
+        /* border: 1px solid; */
+        width: 85%
+    }
+    .left-column img{
+        width: 100%;
+        height: 100%;
+    }
+    .logo{
+        /* border: 1px solid; */
+        width: 236px;
+        height: 50px;
+    }
+     
+    .search-box{
+        display: none;
+            
+    }
+    
+  
+    .nav-t{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+  #right-column{
+    display: none;
+  } 
+  
+ 
+    #right-column2{
+        display: flex
+        ;
+                width: 10%;
+                justify-content: space-around;
+                font-size: x-large;
+    }
+    #right-column2 .icon{
+        color:  hsl(0, 0%, 39%);
+        padding: 11px;
+       
+    }
+   
+    
+    #right-column2>div :hover{
+        border-bottom: 2px solid gray;
+    }
+
+    .bar{
+        width: 5%;
+    }
+    .bar :hover{
+        border-bottom: 2px solid gray;
+    }
+
+   .bar-span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 4px;
+    
+
+   }
+   .bar-span span{
+    text-align: center;
+    width: 50%;
+    border: 1px solid gray;
+    margin-top: 5px;
+ 
+   }
+   .search-box2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   }
+   .search-box2 input{
+    width: 100%;
+    padding: 15px;
+   }
+   .search-box2 .magnifier{
+    position: absolute;
+    left: 93vw;
+   }
+    
+}

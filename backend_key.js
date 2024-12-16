@@ -1,0 +1,1 @@
+export const BACKEND_API = `https://dell-backend-full-stack-xp3r.onrender.com`

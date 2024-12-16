@@ -1,0 +1,29 @@
+.support-container{
+    width: 19%;
+    background-color: #fff;
+    position: absolute;
+    left: 51.2vw;
+    top: -0.3vh;
+    z-index: 1001;
+    height: auto;
+}
+
+.support{
+    width: 100%;
+}
+.support ul li{
+    font-size: .875em;
+    color: #636363;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    padding: 12px 22px 12px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.support ul li:hover{
+    background-color: #e0e0e0e1;
+}

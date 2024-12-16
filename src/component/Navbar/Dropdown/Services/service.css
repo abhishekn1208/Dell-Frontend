@@ -1,0 +1,83 @@
+.services-container{
+    width: 19%;
+    background-color: #fff;
+    position: absolute;
+    left: 43vw;
+    top: -0.3vh;
+    z-index: 1001;
+    height: auto;
+}
+
+.services{
+    width: 100%;
+}
+.services ul li{
+    font-size: .875em;
+    color: #636363;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    padding: 12px 22px 12px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.services ul li:hover{
+    background-color: #e0e0e0e1;
+}
+.services-professional{
+    width: 19%;
+    background-color: #fff;
+    position: absolute;
+    left: 60.7vw;
+    top: -0.2vh;
+    z-index: 1001;
+    height: auto;
+}
+
+.professional-container{
+    width: 100%;
+}
+.professional-container ul li{
+    font-size: .875em;
+    color: #636363;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    padding: 12px 22px 12px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.professional-container ul li:hover{
+    background-color: #e0e0e0e1;
+}
+.services-lifecycle{
+    width: 19%;
+    background-color: #fff;
+    position: absolute;
+    left: 60.7vw;
+    top: -0.2vh;
+    z-index: 1001;
+    height: auto;
+}
+
+.lifecycle-container{
+    width: 100%;
+}
+.lifecycle-container ul li{
+    font-size: .875em;
+    color: #636363;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 400;
+    padding: 12px 22px 12px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lifecycle-container ul li:hover{
+    background-color: #e0e0e0e1;
+}

@@ -1,0 +1,180 @@
+#inp-signup{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+#inp-signup input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 24px !important;
+    height: 48px !important;
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+    font-family: Roboto, sans-serif !important;
+    color: #222222;
+}
+#already-acc{
+    margin-top: 16px;
+}
+#already-acc span{
+    color: #0063b8;
+}
+#already-acc span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#circleInfo{
+    font-weight: 400 !important;
+    font-size: 12px;
+    letter-spacing: .005em !important;
+    color: #636363;
+    font-family: Roboto !important;
+    display: flex;
+    text-align: left;
+    gap: 10px;
+    padding-bottom: 24px !important;
+}
+#signup-content{
+    padding-bottom: 20px !important;
+    font-weight: 400 !important;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: .005em !important;
+    color: #636363;
+    font-family: Roboto !important;
+    text-align: left;
+}
+#label-signup{
+    
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #0e0e0e;
+    line-height: 20px !important;
+    font-family: Roboto, sans-serif !important;
+}
+#label-signup label{
+    display: flex;
+}
+#label-signup p{
+   padding: 0 0 0 8px;
+}
+#TandC{
+    padding-left: 20px;
+    padding-bottom: 20px !important;
+    font-weight: 400 !important;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: .005em !important;
+    color: #636363;
+    font-family: Roboto !important;
+}
+.sign-main{
+    width: 100%;
+    height: 100%;
+}
+.sign-content{
+    width: 100%;
+
+    padding: 5px 5px;
+    display: flex;
+    height: 100%;
+}
+.sign-section1{
+    width: 100%;
+
+}
+.sign-logo{
+      width: 236px;
+      height: 50px;
+      margin: 0 16px;
+}
+.sign-logo img{
+    width: 100%;
+    height: 100%;
+}
+.signup-box{
+    height: auto;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+ 
+
+#socialSignIn{
+
+    height: 48px !important;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #f5f6f7;
+    padding: 0px 10px 0px 10px;
+    width: 100%;
+    font-size: 14px !important;
+    border-color: #ddd;
+    border-width: 1px;
+    margin-top: 16px !important; 
+
+   
+}
+.eyeInput{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 24px !important;
+    height: 48px !important;
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+    font-family: Roboto, sans-serif !important;
+    color: #222222;
+}
+
+
+.signup-box h3{
+    font-size: 40px !important;
+    line-height: 48px !important;
+    font-weight: 300 !important;
+    color: #0e0e0e;
+    text-align: center;
+}
+#btn1{
+    width: 100%;
+    line-height: 48px !important;
+    background-color: #0672cb;
+    border-color: #0672cb;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 36px;
+    margin-top: 36px;
+}
+#btn2{
+    width: 100%;
+    line-height: 48px !important;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: #0063b8;
+    color: #0063b8;
+    border-radius: 2px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 20px;
+} 
+.sign-section2{
+    width: 100%;
+    background: #f5f6f7;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.eye{
+    position: absolute;
+    top: 35px;
+    cursor: pointer;
+    right: 20px;
+}

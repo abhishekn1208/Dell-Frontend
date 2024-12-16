@@ -1,0 +1,176 @@
+.support-bg{
+    width: 100%;
+    padding: 20px;
+    background-color: #0a0e14;
+}
+.support-heading{
+    width: 50%;
+    position: relative;
+    left: 12vw;
+    padding: 10px;
+    margin-top: 8px;
+}
+.support-heading h2{
+    color: #fff;
+    margin-bottom: 8px !important;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: .005em;
+    line-height: 1.5rem;
+}
+.support-heading div{
+    padding-top: 8px !important;
+    padding-bottom: 4px !important;
+    color: #fff;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 300;
+    margin-bottom: .5rem;
+    margin-top: 0;
+}
+.support-heading h3{
+    color: #fff;
+    margin-bottom: 24px !important;
+    margin-top: 0 !important;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .005em;
+    line-height: 1.5rem;
+
+}
+.support-box{
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   gap: 20px;
+   width: 75%;
+   margin: auto;
+   color: #fff;
+}
+.box{
+    color: #fff;
+    height: 100%;
+    background: rgba(245, 246, 247, .1);
+    -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .05);
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .05);
+    border-radius: 2px;
+    text-align: center !important;
+    padding: 24px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    cursor: pointer;
+}
+.box h4{
+    font-weight: 300px;
+    margin-top: 20px;
+}
+.box div{
+    font-size: 30px;
+}
+.album-content h2{
+    color: #fff;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+    text-align: center !important;
+}
+.album{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+    padding: 50px;
+}
+.album-content{
+    background-color: #141d28;
+    /* padding: 15px 18px; */
+    position: relative;
+    border-radius: 3px;
+    top: 30px;
+    right: 4vw;
+    width: 45%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+.image-box{
+    width: 50%;
+    height: 95vh;
+    position: relative;
+    left: 5vw;
+}
+.image-box img{
+    width: 100%;
+    height: 100%;
+}
+.album-content h3{
+    color: #fff;
+    padding-top: 16px !important;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .005em;
+    line-height: 1.5rem;
+    text-align: center !important;
+}
+.btn-album{
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 48px !important;
+    text-align: center !important;
+    justify-content: space-evenly;
+}
+.btn-album button{
+    color: #fff;
+    padding-right: 16px !important;
+    padding-left: 16px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+.sign{
+    padding-left: 5px;
+}
+.btn-album div{
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: .6875rem 1.1875rem;
+    border: 1px solid white;
+    cursor: pointer;
+    display: inline-flex
+    ;
+}
+.btn-album div:hover{
+    background-color: white;
+    color: gray;
+}
+.bottom-album{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.bottom-album div{
+    text-align: center;
+    color: #fff;
+}
+.font-icon{
+    font-size: 30px;
+}
