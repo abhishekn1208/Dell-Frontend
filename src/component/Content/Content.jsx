@@ -29,7 +29,7 @@ useEffect(()=>{
         <img
           src={Images[currentIndex]}
           alt="images"
-          className="image"
+          className={`image ${currentIndex === currentIndex ? 'show' : ''}`}
         />
 
 </div>

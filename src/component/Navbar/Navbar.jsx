@@ -21,7 +21,7 @@ const Navbar = () => {
  
   let username = localStorage.getItem("username")
 
-  console.log(username)
+  // console.log(username)
 
   return (
     <>

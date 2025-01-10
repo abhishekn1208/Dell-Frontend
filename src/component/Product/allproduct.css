@@ -1,0 +1,137 @@
+.product-main{
+    width: 100%;
+    border: 1px solid;
+    padding: 10px 32px;
+}
+.filter-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sort{
+    display: flex;
+    flex-direction: column;
+
+}
+#sort label{
+    margin-bottom: 10px;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    letter-spacing: .005em;
+    font-weight: 400;
+}
+#sort select{
+    font-size: .875rem;
+    line-height: 1.25rem;
+    letter-spacing: .005em;
+    font-weight: 400;
+    height: 2rem;
+    padding: .3125rem 3.6875rem .3125rem .6875rem;
+}
+#product-details1{
+    width: 100%;
+    padding: 20px 20px;
+}
+#product-details{   
+    border: 1px solid #b6b6b6;
+    padding: 24px 16px 0;
+    width: 100%;
+    background-color: #f5f6f7;
+    box-shadow: 0 0 0 1px #b6b6b6;
+    border-radius: 25px 25px 0 0;
+}
+.product-internal{
+    width: 100%;
+    display: flex;
+}
+.product-sample{
+ 
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-laps div{
+
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.small-laps div img{
+    width: 100%;
+}
+.big-laps{
+
+    height: 150px;
+    width: 200px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.big-laps img{
+    width: 100%;
+}
+#product-details-right{
+    width: 100%;
+}
+.product-title{
+    padding-bottom: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 0 0 12px;
+    font-weight: 400;
+}
+.product-title h1{
+    color: #0672cb;
+    cursor: pointer;
+}
+.product-price{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 4px;
+}
+.product-price p{
+    border-bottom: 1px dotted;
+}
+.product-financing{
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+    padding-bottom: 24px;
+}
+.product-financing h5{
+    padding-bottom: 4px;
+    font-size: .875em;
+}
+.product-financing p{
+    font-size: .875em;
+}
+#key{
+    padding: 0 0 8px;
+    color: #636363;
+    font-size: .875em;
+}
+.product-features{
+    display: flex;
+    background-color: #fff;
+    border-radius: 2px;
+    width: 100%;
+    font-size: .875em;
+
+}   
+.product-features div{
+    border-right: 1px solid #0672cb;
+    border-bottom: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 12px 0;
+    padding: 4px 24px;
+    color: #0e0e0e;
+    font-weight: 700;
+    display: flex;
+}

@@ -1,0 +1,11 @@
+.component {
+    transform: translateY(100px); /* Start below the viewport */
+    opacity: 0.5; /* Initially hidden */
+    transition: transform 0.5s ease, opacity 0.5s ease;
+  }
+  
+  /* Final state when component becomes visible */
+  .component.visible {
+    transform: translateY(0); /* Move to its normal position */
+    opacity: 1; /* Make the component visible */
+  }

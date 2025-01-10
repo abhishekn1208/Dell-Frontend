@@ -28,7 +28,7 @@ const Bnavbar = () => {
         <li onMouseEnter={()=>dispatch(toggleServicesDropdown())} onMouseLeave={()=>dispatch(closeServicesDropdown())}>Services <FontAwesomeIcon icon={faChevronDown }className='icon' /></li>
         <li onMouseEnter={()=>dispatch(toggleSupportDropdown())} onMouseLeave={()=>dispatch(closeSupportDropdown())}>Support <FontAwesomeIcon icon={faChevronDown } className='icon'/></li>
         <li onMouseEnter={()=>dispatch(toggleDealsDropdown())} onMouseLeave={()=>dispatch(closeDealsDropdown())}>Deals <FontAwesomeIcon icon={faChevronDown } className='icon'/></li>
-        <li><Link>Find a Store</Link></li>
+        <li><Link to="/store">Find a Store</Link></li>
     </ul>
     </div>
     {isInfraOpen &&  <div onMouseEnter={()=>dispatch(toggleInfraDropdown())} onMouseLeave={()=>dispatch(closeInfraDropdown())}>

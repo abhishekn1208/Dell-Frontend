@@ -14,6 +14,11 @@
     left: 0;
     width: 100%;
     height: 100%;
+    transition: transform 1s ease-in-out;
+    transform: translateX(100%)
+}
+.image.show{
+    transform: translateX(0);
 }
 
 
@@ -22,6 +27,7 @@
     height: 100%;
 
 }
+
 
 #content-box{
     color: white;

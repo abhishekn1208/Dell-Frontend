@@ -1,5 +1,6 @@
 import React from 'react'
 import './computer.css'
+import { Link } from 'react-router'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 import { useDispatch, useSelector } from 'react-redux'
@@ -34,7 +35,7 @@ const ComputerDropdown = () => {
     {isLaptopOpen &&  <div className="computers-laptops" onMouseEnter={()=>dispatch(toggleLaptopDropdown())} onMouseLeave={()=>dispatch(closeLaptopDropdown())}>
      <div className="laptops-container">
          <ul>
-             <li><span>View All Laptops</span></li>
+             <li><Link to="/products"><span>View All Laptops</span></Link></li>
              <li><span>XPS Laptops</span></li>
              <li><span>Latitude Laptops</span></li>
              <li><span>Inspiron Laptops</span></li>

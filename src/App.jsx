@@ -5,6 +5,8 @@ import Navbar from './component/Navbar/Navbar'
 import Signin from './component/SignIn/Signin'
 import Home from './component/Home/Home'
 import Signup from './component/Signup/Signup'
+import Store from './component/Store/Store'
+import AllLaptops from './component/Product/AllLaptops'
 
 
 function App() {
@@ -16,6 +18,9 @@ function App() {
     <Route path='signin' element={ <Signin/>} />
     <Route path='/signup' element={<Signup/>}/>
     <Route path='/contact' element={<Contact/>}/>
+    <Route path='/store' element={<Store/>}/>
+    <Route path='/products' element={<AllLaptops/>}/>
+    
 
     </Routes>
 
